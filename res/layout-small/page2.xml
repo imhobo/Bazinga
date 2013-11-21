@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    android:scrollbars="horizontal|vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg" >
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:text="Best one"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="3d Chess"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Knock Flash"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Sheldon&apos;s Gift"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Sex vs Halo "
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="If I Could"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="81dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/button_black"
+                android:text="Exit"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="87dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/butt"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:text="Stop the music!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp" >
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="28dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="28dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="2"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="28dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="3"
+                    android:textSize="13dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:text="Insane"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Jibber Jabber"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Mammal"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Learning Mandarin"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Muah ha ha "
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Leo-nerd"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="87dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:text="Sorry Raj"
+                android:textColor="#4C0810"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>
+
+</ScrollView>
+
+    
+    
+
+
+
+   

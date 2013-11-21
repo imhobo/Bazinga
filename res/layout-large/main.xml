@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    android:scrollbars="horizontal|vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg" >
+
+<LinearLayout
+    android:id="@+id/LinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:text=" Bazzinga"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="127dp"
+                android:layout_marginTop="15dp"
+                android:text="Title Track"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:layout_height="97dp" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Howard&apos;s Beat Box"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text=" Drunk Raj"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Spock-Lizard"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Knock Penny"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="121dp"
+                android:layout_height="112dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/button_black"
+                android:text="Exit"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="127dp"
+                android:layout_height="138dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/butt"
+                android:paddingBottom="15dip"
+                android:paddingLeft="2dip"
+                android:text="Stop the music!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="200dp" >
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="35dp"
+                    android:layout_height="65dp"
+                    android:text="1"
+                    android:textSize="22dp" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="35dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="2"
+                    android:textSize="22dp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="35dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="3"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:text="Ending Music"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Spot"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Soft Kitty"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Drunk Sheldon Song"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Sheldon&apos;s Laugh"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Sword Master"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="127dp"
+                android:layout_height="97dp"
+                android:layout_marginTop="15dp"
+                android:text="Howard&apos;s Song"
+                android:textColor="#4C0810"
+                android:textStyle="bold" android:textSize="22dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
+    
+    
+
+   
